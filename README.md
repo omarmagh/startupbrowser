@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Startup Browser
 
-## Getting Started
+Startup Browser is a web application designed to help users browse and clone startup framework samples effortlessly.
 
-First, run the development server:
+This is a practice implementation of [Next.js 15 Crash Course | Build and Deploy a Production-Ready Full Stack App](https://www.youtube.com/watch?v=Zq5fmkH0T78) and the [yc_directory](https://github.com/adrianhajdin/yc_directory) repo
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Sample Browsing**: Quickly navigate through various startup framework samples.
+- **Project Cloning**: Clone selected samples to your local environment for customization and development.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Prerequisites
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Node.js**: Ensure that you have Node.js installed on your system.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1. **Clone the Repository**:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/omarmagh/startupbrowser.git
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Navigate to the Project Directory**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   cd startupbrowser
+   ```
 
-## Deploy on Vercel
+3. **Install Dependencies**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install --legacy-peer-deps
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Usage
+
+1. **Start the Development Server**:
+
+   ```bash
+   npm run dev
+   ```
+
+2. **Open in Browser**:
+
+   Navigate to [http://localhost:3000](http://localhost:3000) to access the application.
+
+3. **Browse Samples**:
+
+   Use the interface to explore available startup framework samples.
+
+4. **Clone a Sample**:
+
+   Click on the "Clone" link next to a sample to clone it to your desired path. This action will pull in all necessary dependencies into the `/vendor` directory.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-side rendered applications.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **Sanity.io**: A platform for structured content.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/YourFeature`
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Sanity.io](https://www.sanity.io/)
+
+---
+
+*Note: This project is a work in progress. Some features may not be fully implemented yet.* 
