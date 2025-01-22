@@ -28,3 +28,8 @@ export const STARTUPS_BY_ID_QUERY = defineQuery(`*[_type == "startup" && _id==$i
   image,
   pitch
 }`);
+
+export const STARTUPS_VIEWS_QUERY = defineQuery(`*[_type == "startup" && _id==$id][0] {
+  _id, 
+  views, 
+}`);
