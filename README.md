@@ -4,7 +4,6 @@
 Startup Browser is a web application that enables users to explore and clone startup framework samples effortlessly.
 
 This is a practice implementation of [Next.js 15 Crash Course | Build and Deploy a Production-Ready Full Stack App](https://www.youtube.com/watch?v=Zq5fmkH0T78) and the [yc_directory](https://github.com/adrianhajdin/yc_directory) repo
-## Features
 
 ## Features
 
