@@ -1,16 +1,19 @@
+
 # Startup Browser
 
-Startup Browser is a web application designed to help users browse and clone startup framework samples effortlessly.
+Startup Browser is a web application that enables users to explore and clone startup framework samples effortlessly.
 
 This is a practice implementation of [Next.js 15 Crash Course | Build and Deploy a Production-Ready Full Stack App](https://www.youtube.com/watch?v=Zq5fmkH0T78) and the [yc_directory](https://github.com/adrianhajdin/yc_directory) repo
 ## Features
 
-- **Sample Browsing**: Quickly navigate through various startup framework samples.
-- **Project Cloning**: Clone selected samples to your local environment for customization and development.
+## Features
+
+- **Sample Browsing**: Navigate through a variety of startup framework samples.
+- **Project Cloning**: Clone selected samples to your local environment for further development.
 
 ## Prerequisites
 
-- **Node.js**: Ensure that you have Node.js installed on your system.
+- **Node.js**: Ensure that Node.js is installed on your system.
 
 ## Installation
 
@@ -29,7 +32,7 @@ This is a practice implementation of [Next.js 15 Crash Course | Build and Deploy
 3. **Install Dependencies**:
 
    ```bash
-   npm install --legacy-peer-deps
+   npm install
    ```
 
 ## Usage
@@ -57,6 +60,9 @@ This is a practice implementation of [Next.js 15 Crash Course | Build and Deploy
 - **Next.js**: A React framework for building server-side rendered applications.
 - **Tailwind CSS**: A utility-first CSS framework for styling.
 - **Sanity.io**: A platform for structured content.
+- **TypeScript**: A statically typed superset of JavaScript.
+- **NextAuth.js**: Authentication for Next.js applications.
+- **Sentry**: Application monitoring and error tracking.
 
 ## Contributing
 
@@ -77,6 +83,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Sanity.io](https://www.sanity.io/)
+- [NextAuth.js](https://next-auth.js.org/)
+- [Sentry](https://sentry.io/)
 
 ---
 
